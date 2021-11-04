@@ -1,6 +1,7 @@
 <h2>Products</h2>
 
 <div *ngFor="let product of products">
+
     <h3>
         <a [title]="product.name + ' details'"> <!-- The property binding [] syntax lets you use the property value in a template expression -->
             {{ product.name }}
@@ -14,6 +15,7 @@
     <button (click)="share()">
         Share
     </button>
+
 </div>
 <!-- 
 Copyright Google LLC. All Rights Reserved.
