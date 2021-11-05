@@ -5,7 +5,7 @@
     <h3>
         <a
             [title]="product.name + ' details'"
-            [routerLink]="['/products', product.id]">
+            [routerLink]="['/products', product.id]"> <!-- The property binding [] syntax lets you use the property value in a template expression -->
             {{ product.name }}
         </a>
     </h3>
